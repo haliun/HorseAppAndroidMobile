@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="120dp"
+        android:id="@+id/imageView6"
+        android:src="@mipmap/ic_launcher"
+        android:contentDescription="@string/mori3" />
+
+    <TextView        android:layout_width="match_parent"
+
+
+        android:layout_height="60dp"        android:text="New Text"
+
+
+        android:id="@+id/textViewmorinamem"        android:gravity="center"
+
+
+        android:textSize="20sp"        android:textStyle="bold"
+
+
+        android:layout_alignParentTop="true"
+
+
+        android:layout_toEndOf="@+id/imageView6" />
+
+    <TextView        android:layout_width="wrap_content"
+
+
+        android:layout_height="60dp"        android:text="New Text"
+
+
+        android:id="@+id/textViewMori2"
+
+
+        android:gravity="center"
+
+
+        android:textSize="15sp"        android:textStyle="italic"
+
+
+        android:layout_below="@+id/textViewmorinamem"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_toRightOf="@+id/textView"
+        android:layout_toEndOf="@+id/textView" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="@string/ugshil2"
+        android:id="@+id/textView"
+        android:textStyle="bold"
+        android:layout_alignBaseline="@+id/textViewMori2"
+        android:layout_alignBottom="@+id/textViewMori2"
+        android:layout_toRightOf="@+id/imageView6"
+        android:layout_toEndOf="@+id/imageView6" />
+</RelativeLayout>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+
+    android:orientation="vertical" android:layout_width="match_parent"
+
+
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.CardView
+
+
+        android:layout_width="match_parent"
+
+
+        android:layout_height="wrap_content"
+
+
+        android:id="@+id/row_card">
+
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+
+        android:layout_width="match_parent" android:layout_height="match_parent">
+        <ImageView
+
+
+        android:layout_width="150dp"        android:layout_height="120dp"
+
+
+        android:id="@+id/imageViewAzarga3"
+
+
+        android:src="@mipmap/ic_launcher"        android:layout_alignParentTop="true"
+
+
+        android:layout_alignParentStart="true"
+        android:contentDescription="@string/azargasinglerowimage"
+        android:clickable="true" />
+
+        <TextView        android:layout_width="match_parent"
+
+
+        android:layout_height="60dp"        android:text="New Text"
+
+
+        android:id="@+id/textViewmoriname"        android:gravity="center"
+
+
+        android:textSize="20sp"        android:textStyle="bold"
+
+
+        android:layout_alignParentTop="true"
+
+
+        android:layout_toEndOf="@+id/imageViewAzarga3" />
+
+        <TextView        android:layout_width="wrap_content"
+
+
+        android:layout_height="60dp"        android:text="New Text"
+
+
+        android:id="@+id/textViewAzarga2"
+
+
+        android:gravity="center"
+
+
+        android:textSize="15sp"        android:textStyle="italic"
+
+
+        android:layout_below="@+id/textViewmoriname"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_toRightOf="@+id/textView"
+        android:layout_toEndOf="@+id/textView" />
+    <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textAppearance="?android:attr/textAppearanceSmall"
+    android:text="@string/ugshil2"
+    android:id="@+id/textView"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:layout_alignBaseline="@+id/textViewAzarga2"
+        android:layout_alignBottom="@+id/textViewAzarga2"
+        android:layout_toRightOf="@+id/imageViewAzarga3"
+        android:layout_toEndOf="@+id/imageViewAzarga3" />
+
+    </RelativeLayout>
+    </android.support.v7.widget.CardView>
+</LinearLayout>

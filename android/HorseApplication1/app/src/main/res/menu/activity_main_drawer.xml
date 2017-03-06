@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="Лошади">
+        <menu>
+            <item
+                android:id="@+id/nav_azarga_layout"
+                android:title="Жеребенец"
+                android:icon="@drawable/azarga"/>
+            <item
+                android:id="@+id/nav_morid_layout"
+                android:title="Мерин"
+                android:icon="@drawable/mori"/>
+            <item
+                android:id="@+id/nav_guu_layout"
+                android:title="Кобыла"
+                android:icon="@drawable/guu"/>
+            <item
+                android:id="@+id/nav_unaga_layout"
+                android:title="Жеребенок"
+                android:icon="@drawable/unaga"/>
+        </menu>
+    </item>
+    <item android:title="Работы">
+        <menu>
+            <item
+                android:id="@+id/nav_belcheer_layout"
+                android:title="Леведа и конюшня"
+                android:icon="@drawable/zuchee"/>
+            <item
+                android:id="@+id/nav_tejeel_layout"
+                android:title="Корма и витамины"
+                android:icon="@drawable/wheat"/>
+            <item
+                android:id="@+id/nav_sungaa_layout"
+                android:title="Конкурс"
+                android:icon="@drawable/sungaa"/>
+            <!--@Todo:check hdg note maygaar ajluuda nemj list hvl boloh yum bn-->
+            <item
+                android:id="@+id/nav_ajil_layout"
+                android:title="Список работ"
+                android:icon="@drawable/note"/>
+        </menu>
+    </item>
+
+    <item android:title="Статистика">
+        <menu>
+            <item
+                android:id="@+id/nav_shagnal"
+                android:icon="@drawable/shagnal"
+                android:title="Соревнование, призы" />
+            <item
+                android:id="@+id/nav_orlogo_zarlaga"
+                android:icon="@drawable/orlogo"
+                android:title="Доходы и расходы" />
+        </menu>
+    </item>
+    <item android:title="Личные">
+        <menu>
+            <item
+                android:id="@+id/nav_profile"
+                android:icon="@drawable/user"
+                android:title="Мой профиль" />
+            <item
+                android:id="@+id/nav_settings"
+                android:icon="@drawable/ic_menu_manage"
+                android:title="Настройки" />
+            <item
+                android:id="@+id/nav_help"
+                android:icon="@drawable/help"
+                android:title="Помощь" />
+        </menu>
+    </item>
+
+</menu>

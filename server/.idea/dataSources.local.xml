@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="Django default" uuid="a929085a-11bb-46a9-af81-086bb4fac966">
+      <user-name>root</user-name>
+      <user-password>dfdfdfd8dfcbdfcddfd9dfc2dfcbdfcb</user-password>
+      <schema-pattern>horse.*</schema-pattern>
+      <default-schemas>horse.*</default-schemas>
+    </data-source>
+  </component>
+</project>
