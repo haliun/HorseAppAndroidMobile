@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+
+    <TextView
+        android:id="@+id/textView150"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textColor="@android:color/holo_red_dark"
+        android:textStyle="bold"
+        android:layout_above="@+id/button24"
+        android:layout_alignLeft="@+id/textView98"
+        android:layout_alignStart="@+id/textView98" />
+
+    <TextView
+        android:id="@+id/textView101"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView20m"
+        android:layout_alignStart="@+id/textView20m"
+        android:layout_below="@+id/textView20m"
+        android:text="Тамга:"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView3m"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView7m"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/textView7m"
+        android:layout_marginTop="10dp"
+        android:text="Морь:"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView7m"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView3m"
+        android:layout_marginLeft="35dp"
+        android:layout_marginStart="35dp"
+        android:text="@string/azarga_zurag_nemeh"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView9m"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView100"
+        android:layout_marginLeft="27dp"
+        android:layout_marginStart="27dp"
+        android:text="@string/mori_id"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView12m"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView9m"
+        android:layout_alignStart="@+id/textView9m"
+        android:layout_below="@+id/textView9m"
+        android:text="@string/mori_zus"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView13m"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView12m"
+        android:layout_alignStart="@+id/textView12m"
+        android:layout_below="@+id/textView12m"
+        android:checked="false"
+        android:text="@string/mori_ognoo"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView15m"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView13m"
+        android:layout_alignStart="@+id/textView13m"
+        android:layout_below="@+id/textView13m"
+        android:text="@string/mori_gazar"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView16m"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView15m"
+        android:layout_alignStart="@+id/textView15m"
+        android:layout_below="@+id/textView15m"
+        android:text="@string/mori_tsus"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageViewzuragm"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView7m"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="8dp"
+        android:contentDescription="@string/azarga_image"
+        android:src="@drawable/ic_menu_camera" />
+
+    <TextView
+        android:id="@+id/textView18m"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView16m"
+        android:layout_alignStart="@+id/textView16m"
+        android:layout_below="@+id/textView16m"
+        android:text="@string/morietseg"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView20m"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView18m"
+        android:layout_alignStart="@+id/textView18m"
+        android:layout_below="@+id/textView18m"
+        android:text="@string/morieh"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView_ner_MAle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/textView3m"
+        android:layout_toEndOf="@+id/textView15m"
+        android:layout_toRightOf="@+id/textView15m"
+        android:text="TextView"
+        android:textColor="@color/colorPrimary"
+        android:textSize="24sp"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/textView98"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView100"
+        android:layout_alignStart="@+id/textView100"
+        android:layout_below="@+id/imageViewzuragm"
+        android:layout_marginTop="30dp"
+        android:text="Сүрэг:"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView100"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView9m"
+        android:layout_alignStart="@+id/textView9m"
+        android:layout_below="@+id/textView98"
+        android:text="@string/mori_ugshil"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView102"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/textView100"
+        android:layout_toEndOf="@+id/textView15m"
+        android:layout_toRightOf="@+id/textView15m"
+        android:text="TextView" />
+
+    <Button
+        android:id="@+id/button24"
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:layout_above="@+id/textView102"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_toEndOf="@+id/textView101"
+        android:layout_toRightOf="@+id/textView101"
+        android:background="@null"
+        android:text="Button"
+        android:textColor="@color/colorAccent" />
+
+    <TextView
+        android:id="@+id/textView103"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView102"
+        android:layout_alignStart="@+id/textView102"
+        android:layout_below="@+id/textView102"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/textView104"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView103"
+        android:layout_alignStart="@+id/textView103"
+        android:layout_below="@+id/textView103"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/textView105"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:layout_below="@+id/textView104"
+        android:layout_toEndOf="@+id/button_olympMale" />
+
+    <TextView
+        android:id="@+id/textView106"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:layout_below="@+id/textView105"
+        android:layout_alignStart="@+id/textView105" />
+
+    <TextView
+        android:id="@+id/textView107"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView106"
+        android:layout_toEndOf="@+id/textView15m"
+        android:layout_toRightOf="@+id/textView15m"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/textView108"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView107"
+        android:layout_alignStart="@+id/textView107"
+        android:layout_below="@+id/textView107"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/textView109"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView101"
+        android:layout_alignEnd="@+id/textView106"
+        android:layout_alignRight="@+id/textView106"
+        android:text="TextView"
+        android:layout_alignLeft="@+id/textView108"
+        android:layout_alignStart="@+id/textView108" />
+
+    <ImageView
+        android:id="@+id/imageView_marking_image"
+        android:layout_width="wrap_content"
+        android:layout_height="90dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/textView109"
+        android:layout_marginRight="20dp"
+        android:layout_toRightOf="@+id/textView3m"
+        app:srcCompat="@android:drawable/ic_menu_gallery" />
+
+    <Button
+        android:id="@+id/button_editMale"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="8dp"
+        android:layout_toEndOf="@+id/textView100"
+        android:layout_toRightOf="@+id/textView100"
+        android:background="@drawable/button_blue"
+        android:text="@string/but_edit" />
+
+    <Button
+        android:id="@+id/button_delMale"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/button_editMale"
+        android:layout_marginLeft="17dp"
+        android:layout_marginStart="17dp"
+        android:layout_toEndOf="@+id/button_editMale"
+        android:layout_toRightOf="@+id/button_editMale"
+        android:background="@drawable/button_blue"
+        android:text="@string/but_del" />
+
+    <Button
+        android:id="@+id/button_olympMale"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button_editMale"
+        android:layout_alignStart="@+id/textView7m"
+        android:background="@null"
+        android:text="Уралдаан"
+        android:textColor="@android:color/holo_blue_bright" />
+
+    <Button
+        android:id="@+id/button_prizemale"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button_delMale"
+        android:layout_marginStart="19dp"
+        android:layout_toEndOf="@+id/textView109"
+        android:background="@null"
+        android:text="Шагнал"
+        android:textColor="@android:color/holo_blue_bright" />
+
+</RelativeLayout>

@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.dovchin.horseapplication1.methods.AddFoodVitActivity">
+
+    <TextView
+        android:id="@+id/textView115"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView121"
+        android:layout_alignStart="@+id/textView121"
+        android:layout_below="@+id/textView121"
+        android:layout_marginTop="14dp"
+        android:text="Үнэ:"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView116"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Тэжээл ба витамин"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_alignBottom="@+id/imageView17"
+        android:layout_alignEnd="@+id/buttonFoodDel"
+        android:layout_marginBottom="14dp" />
+
+    <ImageView
+        android:id="@+id/imageView17"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="28dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="32dp"
+        app:srcCompat="@drawable/wheat_color" />
+
+    <TextView
+        android:id="@+id/textViewCountMale"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/imageView17"
+        android:layout_alignStart="@+id/imageView17"
+        android:layout_below="@+id/imageView17"
+        android:layout_marginTop="39dp"
+        android:text="Нэр:"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textViewCountFemale"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textViewCountMale"
+        android:layout_alignStart="@+id/textViewCountMale"
+        android:layout_below="@+id/textViewCountMale"
+        android:layout_marginTop="16dp"
+        android:text="Төрөл:"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView120"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textViewCountFemale"
+        android:layout_alignStart="@+id/textViewCountFemale"
+        android:layout_below="@+id/textViewCountFemale"
+        android:layout_marginTop="13dp"
+        android:text="Авсан огноо:"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView121"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView120"
+        android:layout_alignStart="@+id/textView120"
+        android:layout_below="@+id/textView120"
+        android:layout_marginTop="13dp"
+        android:text="Тоо хэмжээ:"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView122"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView121"
+        android:layout_alignStart="@+id/textView121"
+        android:layout_below="@+id/textView121"
+        android:layout_marginTop="50dp"
+        android:text="Тайлбар:"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView_fooodName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textViewCountMale"
+        android:layout_centerHorizontal="true"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/textViewFoodType"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView120"
+        android:layout_alignEnd="@+id/textView_fooodName"
+        android:layout_alignRight="@+id/textView_fooodName"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/textViewFoodDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textViewFoodType"
+        android:layout_alignStart="@+id/textViewFoodType"
+        android:layout_alignTop="@+id/textView120"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/textViewFoodQuant"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView121"
+        android:layout_alignLeft="@+id/textViewFoodDate"
+        android:layout_alignStart="@+id/textViewFoodDate"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/textViewFoodSum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView115"
+        android:layout_centerHorizontal="true"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/textViewFoodDesc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView122"
+        android:layout_alignLeft="@+id/textViewFoodSum"
+        android:layout_alignStart="@+id/textViewFoodSum"
+        android:text="TextView" />
+
+    <Button
+        android:id="@+id/buttonFoodEdit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView122"
+        android:layout_below="@+id/textView122"
+
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="120dp"
+        android:background="@drawable/button_blue"
+        android:text="@string/but_edit" />
+
+    <Button
+        android:id="@+id/buttonFoodDel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/buttonFoodEdit"
+        android:layout_alignBottom="@+id/buttonFoodEdit"
+        android:layout_marginRight="21dp"
+        android:layout_marginStart="27dp"
+        android:layout_toEndOf="@+id/textViewFoodDesc"
+        android:background="@drawable/button_blue"
+        android:text="@string/but_del" />
+
+    <include layout="@layout/bottom_menu" />
+</RelativeLayout>

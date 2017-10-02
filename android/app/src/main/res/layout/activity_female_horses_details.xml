@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintLeft_toLeftOf="parent"
+    app:layout_constraintRight_toRightOf="parent"
+    app:layout_constraintTop_toTopOf="parent">
+
+    <TextView
+        android:id="@+id/textViewStatFem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textColor="@android:color/holo_red_dark"
+        android:textStyle="bold"
+        android:layout_above="@+id/button_group_female"
+        android:layout_alignStart="@+id/imageViewImgFemale" />
+
+    <TextView
+        android:id="@+id/textView52"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/buttonSave_female"
+        android:layout_alignBottom="@+id/buttonSave_female"
+        android:layout_alignLeft="@+id/imageViewImgFemale"
+        android:layout_alignStart="@+id/imageViewImgFemale"
+        android:text="Гүү "
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView56"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView52"
+        android:layout_alignStart="@+id/textView52"
+        android:layout_below="@+id/textView52"
+        android:layout_marginBottom="2dp"
+        android:fontFamily="sans-serif"
+        android:text="@string/azarga_zurag_nemeh"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView58"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView62"
+        android:layout_alignStart="@+id/textView62"
+        android:layout_below="@+id/imageViewImgFemale"
+        android:layout_marginTop="22dp"
+        android:text="Сүрэг"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView62"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView63"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:text="ID:"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView63"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView58"
+        android:layout_alignStart="@+id/textView58"
+        android:layout_below="@+id/textView58"
+        android:text="@string/mori_ugshil"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView65"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView62"
+        android:layout_alignStart="@+id/textView62"
+        android:layout_below="@+id/textView62"
+        android:text="@string/mori_zus"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView65"
+        android:layout_alignStart="@+id/textView65"
+        android:layout_below="@+id/textViewColor_female"
+        android:text="@string/date_Azarga"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView67"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView68"
+        android:layout_alignLeft="@+id/tview"
+        android:layout_alignStart="@+id/tview"
+        android:text="@string/gazar"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView68"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textViewBlood_female"
+        android:layout_alignBottom="@+id/textViewBlood_female"
+        android:layout_alignLeft="@+id/textView67"
+        android:layout_alignStart="@+id/textView67"
+        android:text="@string/mori_tsus"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView69"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textViewDad_female"
+        android:layout_alignBottom="@+id/textViewDad_female"
+        android:layout_alignStart="@+id/textView68"
+        android:text="@string/etseg"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView70"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/textView65"
+        android:layout_alignLeft="@+id/textView69"
+        android:layout_alignRight="@+id/textView65"
+        android:layout_alignStart="@+id/textView69"
+        android:layout_below="@+id/textView69"
+        android:text="@string/eh"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView71"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView70"
+        android:layout_alignStart="@+id/textView70"
+        android:layout_below="@+id/textViewMom_female"
+        android:text="@string/tamga_azarga"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textViewMom_female"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/imageViewMarkFemale"
+        android:layout_alignLeft="@+id/textViewDad_female"
+        android:layout_alignRight="@+id/imageViewMarkFemale"
+        android:layout_alignStart="@+id/textViewDad_female"
+        android:layout_below="@+id/textViewDad_female"
+        android:layout_marginBottom="2dp"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/textViewDad_female"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textViewBlood_female"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignStart="@+id/textViewBlood_female"
+        android:layout_below="@+id/textViewBlood_female"
+        android:layout_marginBottom="2dp"
+        android:layout_toEndOf="@+id/textView70"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/textViewBlood_female"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/textViewPlace_female"
+        android:layout_marginBottom="2dp"
+        android:layout_toEndOf="@+id/textView70"
+        android:text="TextView"
+        android:layout_alignLeft="@+id/textViewColor_female"
+        android:layout_alignStart="@+id/textViewColor_female" />
+
+    <TextView
+        android:id="@+id/textViewPlace_female"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textViewDay_female"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignStart="@+id/textViewDay_female"
+        android:layout_below="@+id/textViewDay_female"
+        android:layout_marginBottom="2dp"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/textViewDay_female"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewColor_female"
+        android:layout_marginBottom="2dp"
+        android:layout_toRightOf="@+id/tview"
+        android:text="TextView"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:id="@+id/textViewColor_female"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textViewId_female"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignStart="@+id/textViewId_female"
+        android:layout_below="@+id/textViewId_female"
+        android:layout_marginBottom="2dp"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/textViewBreed_female"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/button_group_female"
+        android:layout_marginBottom="2dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_toRightOf="@+id/textView63"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/textViewId_female"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/textViewBreed_female"
+        android:layout_alignLeft="@+id/textViewBreed_female"
+        android:layout_alignRight="@+id/textViewBreed_female"
+        android:layout_alignStart="@+id/textViewBreed_female"
+        android:layout_below="@+id/textView63"
+        android:layout_marginBottom="2dp"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/textViewName_female"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/textView52"
+        android:layout_marginStart="13dp" />
+
+    <ImageView
+        android:id="@+id/imageViewImgFemale"
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:layout_alignEnd="@+id/textViewPlace_female"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/textViewPlace_female"
+        android:layout_below="@+id/textView56"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        app:srcCompat="@android:drawable/ic_menu_gallery" />
+
+    <ImageView
+        android:id="@+id/imageViewMarkFemale"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        app:srcCompat="@android:drawable/ic_menu_gallery"
+        android:layout_below="@+id/textViewMom_female"
+        android:layout_alignRight="@+id/textViewDad_female"
+        android:layout_alignEnd="@+id/textViewDad_female"
+        android:layout_toRightOf="@+id/textView67"
+        android:layout_toEndOf="@+id/textView67" />
+
+    <Button
+        android:id="@+id/button_group_female"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:text="Button"
+        android:textColor="@color/colorAccent"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_toEndOf="@+id/textView63"
+        android:layout_above="@+id/textView63"
+        android:layout_toRightOf="@+id/textView63"
+        android:layout_alignTop="@+id/textView58" />
+
+    <Button
+        android:id="@+id/button_edit_female"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageViewMarkFemale"
+        android:layout_marginTop="13dp"
+        android:layout_toEndOf="@+id/textView71"
+        android:layout_toRightOf="@+id/textView71"
+        android:background="@drawable/button_blue"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:text="@string/but_edit" />
+
+    <Button
+        android:id="@+id/button_del_female"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/button_blue"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:text="@string/but_del"
+        android:layout_alignBaseline="@+id/button_edit_female"
+        android:layout_alignBottom="@+id/button_edit_female"
+        android:layout_alignEnd="@+id/imageViewImgFemale"
+        android:layout_marginEnd="45dp" />
+
+</RelativeLayout>

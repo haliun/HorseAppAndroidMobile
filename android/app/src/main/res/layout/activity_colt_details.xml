@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.dovchin.horseapplication1.methods.AddColtActivity">
+
+    <TextView
+        android:id="@+id/textViewStatusColt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button_colt_group"
+        android:layout_alignLeft="@+id/imageView19"
+        android:layout_alignStart="@+id/imageView19"
+        android:text="TextView"
+        android:textColor="@android:color/holo_red_dark"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView145"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView136"
+        android:layout_below="@+id/textView143"
+        android:text="@string/tamga_azarga"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView143"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView141"
+        android:layout_alignStart="@+id/textView141"
+        android:layout_below="@+id/textView142"
+        android:text="@string/eh"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView142"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView137"
+        android:layout_alignStart="@+id/textView137"
+        android:layout_below="@+id/textView141"
+        android:text="@string/etseg"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView141"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView142"
+        android:layout_alignStart="@+id/textView142"
+        android:layout_below="@+id/textView140"
+        android:text="@string/mori_tsus"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView140"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView_colt_place"
+        android:layout_alignBottom="@+id/textView_colt_place"
+        android:layout_alignLeft="@+id/textView139"
+        android:layout_alignStart="@+id/textView139"
+        android:text="@string/gazar"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView139"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView_colt_date"
+        android:layout_alignBottom="@+id/textView_colt_date"
+        android:layout_alignLeft="@+id/imageView19"
+        android:layout_alignStart="@+id/imageView19"
+        android:text="@string/date_Azarga"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView138"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView_colt_color"
+        android:layout_alignBottom="@+id/textView_colt_color"
+        android:layout_alignLeft="@+id/textView137"
+        android:layout_alignStart="@+id/textView137"
+        android:text="@string/mori_zus"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView137"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView139"
+        android:layout_alignStart="@+id/textView139"
+        android:layout_below="@+id/textView136"
+        android:text="@string/mori_ugshil"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView136"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView134"
+        android:layout_alignStart="@+id/textView134"
+        android:layout_below="@+id/textView134"
+        android:text="ID:"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView134"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView133"
+        android:layout_below="@+id/imageView19"
+        android:layout_marginTop="22dp"
+        android:text="Сүрэг:"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView132"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="19dp"
+        android:layout_marginStart="22dp"
+        android:text="Унага"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView133"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView132"
+        android:layout_alignStart="@+id/textView132"
+        android:layout_below="@+id/textView132"
+        android:layout_marginBottom="2dp"
+        android:layout_marginTop="7dp"
+        android:text="@string/azarga_zurag_nemeh"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView19"
+        android:layout_width="match_parent"
+        android:layout_height="135dp"
+        android:layout_below="@+id/textView133"
+        android:layout_marginBottom="2dp"
+        android:layout_marginLeft="20dp"
+        android:layout_toStartOf="@+id/textView147"
+        app:srcCompat="@android:drawable/ic_menu_gallery"
+        android:layout_alignRight="@+id/imageViewColtMark"
+        android:layout_alignEnd="@+id/imageViewColtMark" />
+
+    <ImageView
+        android:id="@+id/imageViewColtMark"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:layout_alignTop="@+id/textView145"
+        android:layout_marginRight="20dp"
+        android:layout_toRightOf="@+id/textView133"
+        app:srcCompat="@android:drawable/ic_menu_gallery" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="41dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button_blue"
+        android:text="@string/but_del"
+        android:layout_below="@+id/imageViewColtMark"
+        android:layout_toEndOf="@+id/textView_colt_mom"
+        android:layout_marginStart="26dp" />
+
+    <Button
+        android:id="@+id/button27"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/button4"
+        android:layout_alignBottom="@+id/button4"
+        android:layout_toEndOf="@+id/textView137"
+        android:layout_toRightOf="@+id/textView137"
+        android:background="@drawable/button_blue"
+        android:text="@string/but_edit" />
+
+    <TextView
+        android:id="@+id/textView_colt_creed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView_colt_id"
+        android:layout_marginBottom="2dp"
+        android:layout_toEndOf="@+id/textView139"
+        android:layout_toRightOf="@+id/textView139"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/textView_colt_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView132"
+        android:text="TextView"
+        android:textColor="@color/colorPrimary"
+        android:textSize="24sp"
+        android:textStyle="bold|italic"
+        android:layout_alignTop="@+id/textView132"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_toEndOf="@+id/textView140" />
+
+    <TextView
+        android:id="@+id/textView_colt_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:layout_above="@+id/textView137"
+        android:layout_alignLeft="@+id/textView_colt_creed"
+        android:layout_alignStart="@+id/textView_colt_creed" />
+
+    <TextView
+        android:id="@+id/textView_colt_color"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView_colt_creed"
+        android:layout_marginBottom="2dp"
+        android:layout_toEndOf="@+id/textView139"
+        android:layout_toRightOf="@+id/textView139"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/textView_colt_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView_colt_color"
+        android:layout_marginBottom="2dp"
+        android:layout_marginLeft="9dp"
+        android:layout_toEndOf="@+id/textView139"
+        android:layout_toRightOf="@+id/textView139"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/textView_colt_place"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView_colt_date"
+        android:layout_alignStart="@+id/textView_colt_date"
+        android:layout_below="@+id/textView_colt_date"
+        android:layout_marginBottom="2dp"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/textView_colt_blood"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView_colt_place"
+        android:layout_alignStart="@+id/textView_colt_place"
+        android:layout_below="@+id/textView_colt_place"
+        android:layout_marginBottom="2dp"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/textView_colt_dad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView_colt_blood"
+        android:layout_alignStart="@+id/textView_colt_blood"
+        android:layout_below="@+id/textView_colt_blood"
+        android:layout_marginBottom="2dp"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/textView_colt_mom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView_colt_dad"
+        android:layout_alignStart="@+id/textView_colt_dad"
+        android:layout_below="@+id/textView_colt_dad"
+        android:layout_marginBottom="2dp"
+        android:text="TextView" />
+
+    <Button
+        android:id="@+id/button_colt_group"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:text="Стая "
+        android:layout_alignTop="@+id/textView134"
+        android:layout_alignRight="@+id/imageView19"
+        android:layout_alignEnd="@+id/imageView19"
+        android:layout_alignLeft="@+id/imageViewColtMark"
+        android:layout_alignStart="@+id/imageViewColtMark"
+        android:layout_above="@+id/textView_colt_id" />
+
+</RelativeLayout>

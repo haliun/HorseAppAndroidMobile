@@ -1,0 +1,231 @@
+<resources>
+    <string name="app_name">Уяач</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+
+    <!-- Accessibility description for navigation mDrawerLayout -->
+    <string name="navdrawer_description_a11y">Navigation Drawer used to switch between major features of the application</string>
+    <string name="title_activity_deleteme">deleteme</string>
+    <string name="title_activity_2">Activity2</string>
+
+    <string name="action_settings">Настройки</string>
+    <string name="action_haih">Поиск</string>
+    <string name="action_add">Добавить</string>
+    <string name="title_activity_login">Sign in</string>
+    <string name="azarga_nemeh">Шинэ азарга</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="haih">Хайх</string>
+    <string name="textview">TextView</string>
+    <string name="azarga_nemeh_title">Нэмэх цэс:</string>
+    <string name="nemeh_tovch">Нэмэх</string>
+    <string name="mori_nemeh">Шинэ морь</string>
+    <string name="morid_title">Морьд</string>
+    <string name="azarga_title">Азарганууд</string>
+    <string name="azarga_nemeh1">Шинэ азарга</string>
+    <string name="azarga_zurag_nemeh">Зураг:</string>
+    <string name="azarga_ner">Нэр:</string>
+    <string name="id_azarga">ID:</string>
+    <string name="huis_azarga">Хүйс:</string>
+    <string name="ugshil_azarga">Угшил:</string>
+    <string name="date_Azarga">Төрсөн огноо:</string>
+    <string name="zus_azarga">Зүс:</string>
+    <string name="nomer_azarga">Номер:</string>
+    <string name="birthgazar_azarga">Төрсөн газар:</string>
+    <string name="tsus_azarga">Цус:</string>
+    <string name="tamga_azarga">Тамга:</string>
+    <string name="zurag_oruulah_but">Добавить изображение</string>
+    <string name="tamga_oruulah_but">Добавить Клеймение</string>
+    <string name="tamga_image">tamga_image</string>
+    <string name="azarga_image">azarga_image</string>
+    <string name="save_azarga_adding">Хадгалах</string>
+    <string name="azarga_sureg_title">Стая жеребца</string>
+    <string name="genius_tree_azarga">Дерево гена:</string>
+    <string name="gen_inf_azarga">Данные</string>
+    <string name="childs_azarga">Потомки</string>
+    <string name="amjilt_azarga">Награды</string>
+    <string name="azargasinglerowimage">azargasinglerowImage</string>
+    <string name="imageaa">image</string>
+    <string name="all_azarga_harah">Бүх азарга</string>
+    <string name="uyach_head">Заводчик</string>
+    <string name="uyach_header_img">uyach_header_img</string>
+    <string name="turul_mori">Тип:</string>
+    <string name="welcome">Добро пожаловать в приложение Лошадь!</string>
+    <string name="azarga">Жеребец и его стая</string>
+    <string name="morid">Морьд</string>
+    <string name="etseg">Эцэг:</string>
+    <string name="eh">Эх:</string>
+    <string name="azarga_gen_zurag">azarga_gen_zurag</string>
+    <string name="material_is_good">Material is Good</string>
+    <string name="azarga1">Данные:</string>
+    <string name="name">Нэр:</string>
+    <string name="ugshil">Угшил:</string>
+    <string name="zus">Зүс:</string>
+    <string name="ognoo">Төрсөн огноо:</string>
+    <string name="gazar">Төрсөн газар:</string>
+    <string name="tsus">Цус:</string>
+    <string name="id">ID:</string>
+    <string name="huis">Хүйс:</string>
+    <string name="etseg1">Эцэг:</string>
+    <string name="eh1">Эх:</string>
+    <string name="but_edit">Засах</string>
+    <string name="but_del">Устгах</string>
+    <string name="child">child</string>
+    <string name="mori">Морь</string>
+    <string name="mori1">түжш</string>
+    <string name="main_inf_mori">Данные</string>
+    <string name="amjilt_mori">Награда</string>
+    <string name="gen_mod_mori">Дерево гена</string>
+    <string name="sureg">sureg</string>
+    <string name="add_child">Добавить лошадь в стаю</string>
+    <string name="haihmori">Поиск</string>
+    <string name="harah_morid">Бүх морьд</string>
+    <string name="morid2">morid</string>
+    <string name="ugshil2">Угшил:</string>
+    <string name="mori3">түжш</string>
+    <string name="mori_nemeh1">Нэмэх</string>
+    <string name="moriner">Нэр:</string>
+    <string name="mori_id">ID:</string>
+    <string name="mori_ugshil">Угшил:</string>
+    <string name="mori_zus">Зүс:</string>
+    <string name="mori_ognoo">Төрсөн огноо:</string>
+    <string name="mori_tsus">Цус:</string>
+    <string name="mori_gazar">төрсөн газар:</string>
+    <string name="morietseg">Эцэг:</string>
+    <string name="morieh">Эх:</string>
+    <string name="морьд">Морьд</string>
+    <string name="азнууд">Азарганууд</string>
+    <string name="uyach_name">УЯАЧ</string>
+    <string name="welcome_1">Тавтай морилно уу!</string>
+    <string name="newuser">Бүртгүүлэх</string>
+    <string name="before_used">Нэвтрэх</string>
+    <string name="restore_data">Нэвтрэх</string>
+    <string name="user_datas">Данные пользователя:</string>
+    <string name="name_усэр">Name</string>
+    <string name="name_last">Name</string>
+    <string name="lastname">Овог</string>
+    <string name="firstname">Нэр</string>
+    <string name="email">Email</string>
+    <string name="aimag">Хот/аймаг</string>
+    <string name="sum">Сум/дүүрэг</string>
+    <string name="save">Хадгалах</string>
+    <string name="minimum_password">Нууц үг богино байна. Хамгийн доод тал нь 6 тэмдэгт байх ёстой! </string>
+    <string name="auth_failed">Нэвтрэлт амжилтгүй боллоо. Нууц үг болон Email-ээ шалгаад дахин оролдоно уу?</string>
+    <string-array name="TypeList">
+        <item>М   </item>
+        <item>Ж </item>
+
+    </string-array>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">General</string>
+
+    <string name="pref_title_social_recommendations">Enable social recommendations</string>
+    <string name="pref_description_social_recommendations">Recommendations for people to contact
+        based on your message history
+    </string>
+
+    <string name="pref_title_display_name">Display name</string>
+    <string name="pref_default_display_name">John Smith</string>
+
+    <string name="pref_title_add_friends_to_messages">Add friends to messages</string>
+    <string-array name="pref_example_list_titles">
+        <item>Always</item>
+        <item>When possible</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_example_list_values">
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+    </string-array>
+
+    <!-- Example settings for Data & Sync -->
+    <string name="pref_header_data_sync">Data &amp; sync</string>
+
+    <string name="pref_title_sync_frequency">Sync frequency</string>
+    <string-array name="pref_sync_frequency_titles">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>3 hours</item>
+        <item>6 hours</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_values">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>360</item>
+        <item>-1</item>
+    </string-array>
+
+    <string name="pref_title_system_sync_settings">System sync settings</string>
+
+    <!-- Example settings for Notifications -->
+    <string name="pref_header_notifications">Notifications</string>
+
+    <string name="pref_title_new_message_notifications">New message notifications</string>
+
+    <string name="pref_title_ringtone">Ringtone</string>
+    <string name="pref_ringtone_silent">Silent</string>
+
+    <string name="pref_title_vibrate">Vibrate</string>
+    <string name="title_item_list">Items</string>
+    <string name="title_item_detail">Item Detail</string>
+    <string name="guunuud">Гүүнүүд</string>
+    <string name="guu_nemeh">Шинэ гүү</string>
+    <string name="гуу_харах">Бүх гүүнүүд</string>
+    <string name="unaganuud">Унаганууд</string>
+    <string name="unaga_nemeh">Шинэ унага</string>
+    <string name="buh_unaga_harah">Бүх унаганууд</string>
+    <string name="new_user">Бүртгүүлэх</string>
+    <string name="title_activity_welcome">WelcomeActivity</string>
+    <string name="edituser">Гарах</string>
+    <string name="edit_user">Засах</string>
+    <string name="myprofile">myprofile</string>
+    <string name="cancel">Буцах</string>
+    <string name="адд">+</string>
+    <string name="list_work">Ажлын жагсаалт</string>
+    <string name="todo">ToDo</string>
+    <string name="email_login">Email</string>
+    <string name="password_login">Password</string>
+    <string name="next">Дараагийх</string>
+    <string name="skip">Алгасах</string>
+    <string name="start">Нэвтрэх</string>
+
+    <string name="slide_1_title">Адууны бүртгэл </string>
+    <string name="slide_1_desc">The easiest way to order food from your favourite restaurant!</string>
+
+    <string name="slide_2_title">Уяачдын ажлыг хөнгөвчлөнө</string>
+    <string name="slide_2_desc">Book movie tickets for your family and friends!</string>
+
+    <string name="slide_3_title">Азарганы сүрэгийн менежмент</string>
+    <string name="slide_3_desc">Best discounts on every single service we offer!</string>
+
+    <string name="slide_4_title">Уралдаан, шагнал зэргийн хөтөч</string>
+    <string name="slide_4_desc">Book tickets of any transportation and travel the world!</string>
+
+    <string name="play_again_desc">To see the welcome slider again, goto Settings -> apps -> welcome slider -> clear data</string>
+    <string name="play_again">Play Again</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

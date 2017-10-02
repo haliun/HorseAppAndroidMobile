@@ -1,0 +1,378 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.dovchin.horseapplication1.methods.AddColtActivity">
+
+    <EditText
+        android:id="@+id/editTextColtDad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView142"
+        android:layout_alignStart="@+id/editTextColtBlood"
+        android:layout_below="@+id/editTextColtBlood"
+        android:layout_marginBottom="2dp"
+        android:background="@color/common_google_signin_btn_text_dark_default"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/editTextColtBlood"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView141"
+        android:layout_below="@+id/textView140"
+        android:layout_marginBottom="2dp"
+        android:background="@color/common_google_signin_btn_text_dark_default"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:layout_alignEnd="@+id/imageButtonColtImg" />
+
+    <EditText
+        android:id="@+id/editText7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView139"
+        android:layout_alignEnd="@+id/editTextColtColor"
+        android:layout_alignRight="@+id/editTextColtColor"
+        android:layout_below="@+id/editTextColtColor"
+        android:layout_toRightOf="@+id/textView146"
+        android:background="@color/common_google_signin_btn_text_dark_default"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/editTextColtDate"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/editTextColtPlace"
+        android:layout_alignEnd="@+id/editTextColtBlood"
+        android:layout_below="@+id/editTextColtColor"
+        android:layout_marginBottom="2dp"
+        android:layout_toEndOf="@+id/textView140"
+        android:background="@color/common_google_signin_btn_text_dark_default"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/editTextColtMom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/imageButtonColtMark"
+        android:layout_alignEnd="@+id/editTextColtDad"
+        android:layout_below="@+id/editTextColtDad"
+        android:layout_marginBottom="2dp"
+        android:background="@color/common_google_signin_btn_text_dark_default"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/editTextColtPlace"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/editTextColtBlood"
+        android:layout_alignEnd="@+id/editTextColtBlood"
+        android:layout_alignStart="@+id/editTextColtBlood"
+        android:layout_below="@+id/editText7"
+        android:layout_marginBottom="2dp"
+        android:background="@color/common_google_signin_btn_text_dark_default"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/editTextColtColor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView138"
+        android:layout_alignEnd="@+id/editTextColtDate"
+        android:layout_alignLeft="@+id/editTextColtBreed"
+        android:layout_alignStart="@+id/editTextColtBreed"
+        android:layout_below="@+id/editTextColtBreed"
+        android:layout_marginBottom="2dp"
+        android:layout_marginEnd="2dp"
+        android:layout_toStartOf="@+id/button28"
+        android:background="@color/common_google_signin_btn_text_dark_default"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/editTextColtBreed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView149"
+        android:layout_alignEnd="@+id/editTextColtDate"
+        android:layout_alignStart="@+id/checkBox_colt"
+        android:layout_alignTop="@+id/textView149"
+        android:layout_marginBottom="2dp"
+        android:background="@color/common_google_signin_btn_text_dark_default"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/editTextColtId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView149"
+        android:layout_alignStart="@+id/editTextColtName"
+        android:layout_below="@+id/textView148"
+        android:layout_marginBottom="2dp"
+        android:background="@color/common_google_signin_btn_text_dark_default"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:layout_alignEnd="@+id/editTextColtBreed" />
+
+    <EditText
+        android:id="@+id/editTextColtName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/checkBox_colt"
+        android:layout_alignTop="@+id/textView148"
+        android:layout_marginBottom="3dp"
+        android:layout_marginTop="3dp"
+        android:background="@color/common_google_signin_btn_text_dark_default"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/buttonSaveColt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/imageButtonColtImg"
+        android:layout_alignRight="@+id/imageButtonColtImg"
+        android:layout_alignTop="@+id/textView132"
+        android:background="@drawable/button_blue"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:text="Хадгалах"
+        android:textColor="@color/cardview_light_background"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView146"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="*"
+        android:textColor="@android:color/holo_red_dark"
+        android:textStyle="bold"
+        android:layout_above="@+id/imageButtonColtImg"
+        android:layout_toEndOf="@+id/textView145" />
+
+    <TextView
+        android:id="@+id/textView147"
+        android:layout_width="10dp"
+        android:layout_height="wrap_content"
+        android:text="*"
+        android:textColor="@android:color/holo_red_dark"
+        android:textStyle="bold"
+        android:layout_alignBaseline="@+id/textView134"
+        android:layout_alignBottom="@+id/textView134"
+        android:layout_toEndOf="@+id/textView134" />
+
+    <TextView
+        android:id="@+id/textView148"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="*"
+        android:textColor="@android:color/holo_red_dark"
+        android:textStyle="bold"
+        android:layout_below="@+id/spinner_colt"
+        android:layout_toEndOf="@+id/textView142"
+        android:layout_marginTop="17dp" />
+
+    <TextView
+        android:id="@+id/textView149"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="*"
+        android:textColor="@android:color/holo_red_dark"
+        android:textStyle="bold"
+        android:layout_alignBaseline="@+id/textView137"
+        android:layout_alignBottom="@+id/textView137"
+        android:layout_toRightOf="@+id/textView137"
+        android:layout_toEndOf="@+id/textView137" />
+
+    <ImageButton
+        android:id="@+id/imageButtonColtMark"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginRight="20dp"
+        app:srcCompat="@android:drawable/ic_menu_gallery"
+        android:layout_below="@+id/textView143"
+        android:layout_alignEnd="@+id/editTextColtMom"
+        android:layout_alignStart="@+id/editTextColtMom" />
+
+    <TextView
+        android:id="@+id/textView145"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView143"
+        android:layout_below="@+id/textView143"
+        android:text="Тамга:" />
+
+    <CheckBox
+        android:id="@+id/checkBox_colt"
+        android:layout_width="wrap_content"
+        android:layout_height="15dp"
+        android:text="Идэвхитэй "
+        android:textColor="@color/cardview_dark_background"
+        android:textSize="12sp"
+        android:layout_above="@+id/editTextColtName"
+        android:layout_toEndOf="@+id/textView147" />
+
+    <TextView
+        android:id="@+id/textView144"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView135"
+        android:layout_alignStart="@+id/textView136"
+        android:layout_marginBottom="3dp"
+        android:text="Статус:"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/textView143"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView141"
+        android:layout_alignStart="@+id/textView141"
+        android:layout_below="@+id/textView142"
+        android:text="Эх:" />
+
+    <TextView
+        android:id="@+id/textView142"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView137"
+        android:layout_alignStart="@+id/textView137"
+        android:layout_below="@+id/textView141"
+        android:text="Эцэг:" />
+
+    <TextView
+        android:id="@+id/textView141"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView142"
+        android:layout_below="@+id/textView140"
+        android:text="Цус:" />
+
+    <TextView
+        android:id="@+id/textView140"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView134"
+        android:layout_below="@+id/editText7"
+        android:text="Төрсөн газар:" />
+
+    <TextView
+        android:id="@+id/textView139"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView133"
+        android:layout_alignStart="@+id/textView133"
+        android:layout_below="@+id/textView138"
+        android:text="Төрсөн огноо:" />
+
+    <TextView
+        android:id="@+id/textView138"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView137"
+        android:layout_alignStart="@+id/textView137"
+        android:layout_below="@+id/textView137"
+        android:text="Зүс:" />
+
+    <TextView
+        android:id="@+id/textView137"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView139"
+        android:layout_below="@+id/textView136"
+        android:text="Угшил:" />
+
+    <TextView
+        android:id="@+id/textView136"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ID:"
+        android:layout_below="@+id/editTextColtName"
+        android:layout_alignStart="@+id/textView137" />
+
+    <TextView
+        android:id="@+id/textView135"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Нэр:"
+        android:layout_alignTop="@+id/editTextColtName"
+        android:layout_alignStart="@+id/textView134" />
+
+    <TextView
+        android:id="@+id/textView134"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/spinner_colt"
+        android:layout_alignStart="@+id/imageButtonColtImg"
+        android:layout_marginBottom="3dp"
+        android:text="Сүрэг: " />
+
+    <TextView
+        android:id="@+id/textView132"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="19dp"
+        android:layout_marginStart="19dp"
+        android:layout_marginTop="9dp"
+        android:text="Унага: "
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView133"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView132"
+        android:layout_alignStart="@+id/textView132"
+        android:layout_below="@+id/textView132"
+        android:layout_marginTop="7dp"
+        android:text="Зураг"
+        android:textStyle="bold" />
+
+    <ImageButton
+        android:id="@+id/imageButtonColtImg"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_below="@+id/textView133"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="2dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="8dp"
+        app:srcCompat="@android:drawable/ic_menu_gallery" />
+
+    <Spinner
+        android:id="@+id/spinner_colt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/imageButtonColtImg"
+        android:layout_marginBottom="2dp"
+        android:spinnerMode="dialog"
+        android:layout_alignStart="@+id/checkBox_colt" />
+
+    <Button
+        android:id="@+id/button28"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:text="Date"
+        android:textColor="@color/colorAccent"
+        android:layout_below="@+id/editTextColtColor"
+        android:layout_above="@+id/editTextColtPlace"
+        android:layout_alignEnd="@+id/editTextColtDate" />
+
+</RelativeLayout>

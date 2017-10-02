@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.dovchin.horseapplication1.Activities.PrizeDetailsActivity">
+    <android.support.design.widget.BottomNavigationView
+
+        android:id="@+id/bottom_navigation_menu"
+
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentBottom="true"
+
+        app:itemBackground="@color/colorPrimaryDark"
+
+        app:itemIconTint="@android:color/white"
+
+        app:itemTextColor="@android:color/white"
+
+        app:menu="@menu/bottom_navigation_menu"
+        />
+
+    <TextView
+        android:id="@+id/textView91"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/textView86"
+        android:layout_toEndOf="@+id/textView86"
+        android:layout_toLeftOf="@+id/editTextPEName"
+        android:layout_toRightOf="@+id/textView86"
+        android:text="*"
+        android:textColor="@android:color/holo_red_dark"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView90"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="*"
+        android:textColor="@android:color/holo_red_dark"
+        android:textStyle="bold"
+        android:layout_alignBaseline="@+id/editTextPEOlymp"
+        android:layout_alignBottom="@+id/editTextPEOlymp"
+        android:layout_toEndOf="@+id/textView88" />
+
+    <ImageView
+        android:id="@+id/imageView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="21dp"
+        android:layout_marginTop="18dp"
+        app:srcCompat="@drawable/prize_color"
+        android:layout_alignParentTop="true"
+        android:layout_alignEnd="@+id/textView89" />
+
+    <TextView
+        android:id="@+id/textView83"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="11dp"
+        android:layout_marginTop="11dp"
+        android:text="Шагналууд"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_alignTop="@+id/imageView15"
+        android:layout_toStartOf="@+id/buttondatePrize" />
+
+    <TextView
+        android:id="@+id/textView86"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:text="Нэр:"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_below="@+id/imageView15"
+        android:layout_alignStart="@+id/textView87" />
+
+    <TextView
+        android:id="@+id/textView87"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Авсан огноо:"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_alignTop="@+id/editTextPEdate"
+        android:layout_toStartOf="@+id/textView83" />
+
+    <TextView
+        android:id="@+id/textView88"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Авсан уралдаан:"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_alignBottom="@+id/editTextPEOlymp"
+        android:layout_alignStart="@+id/textView87"
+        android:layout_alignEnd="@+id/textView87" />
+
+    <TextView
+        android:id="@+id/textView89"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="Тайлбар:"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_below="@+id/editTextPEOlymp"
+        android:layout_alignStart="@+id/textView88" />
+
+    <EditText
+        android:id="@+id/editTextPEName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:textSize="16sp"
+        android:layout_alignBaseline="@+id/textView86"
+        android:layout_alignBottom="@+id/textView86"
+        android:layout_alignStart="@+id/editTextPEdate"
+        android:layout_alignEnd="@+id/buttondatePrize" />
+
+    <EditText
+        android:id="@+id/editTextPEdate"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="27dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textSize="16sp"
+        android:layout_below="@+id/editTextPEName"
+        android:layout_toEndOf="@+id/textView87" />
+
+    <EditText
+        android:id="@+id/editTextPEOlymp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="38dp"
+        android:ems="10"
+        android:inputType="textLongMessage"
+        android:textSize="16sp"
+        android:layout_below="@+id/textView87"
+        android:layout_alignEnd="@+id/buttondatePrize"
+        android:layout_alignStart="@+id/textView83" />
+
+    <EditText
+        android:id="@+id/editTextPEDesc"
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:ems="10"
+        android:inputType="textLongMessage"
+        android:textSize="16sp"
+        android:layout_alignTop="@+id/textView89"
+        android:layout_alignRight="@+id/editTextPEOlymp"
+        android:layout_alignEnd="@+id/editTextPEOlymp"
+        android:layout_toEndOf="@+id/textView88"
+        android:layout_alignStart="@+id/editTextPEdate" />
+
+    <com.github.clans.fab.FloatingActionButton
+        android:id="@+id/floatingActionButtonSavePrize"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="38dp"
+        android:clickable="true"
+        app:fabSize="mini"
+        android:src="@drawable/fab_add"
+        fab:fab_colorNormal="#eddc4537"
+        fab:fab_colorPressed="#dd5245"
+        fab:fab_colorRipple="#dd5346"
+        android:layout_below="@+id/editTextPEDesc"
+        android:layout_alignRight="@+id/editTextPEDesc"
+        android:layout_alignEnd="@+id/editTextPEDesc" />
+
+    <Button
+        android:id="@+id/buttondatePrize"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/editTextPEdate"
+        android:layout_alignBottom="@+id/editTextPEdate"
+        android:layout_alignEnd="@+id/bottom_navigation_menu"
+        android:layout_marginRight="10dp"
+        android:background="@null"
+        android:text="огноо"
+        android:textColor="@color/colorAccent" />
+</RelativeLayout>

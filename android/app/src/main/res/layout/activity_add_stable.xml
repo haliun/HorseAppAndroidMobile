@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.dovchin.horseapplication1.methods.AddStableActivity">
+
+
+    <com.github.clans.fab.FloatingActionButton
+        android:id="@+id/floatingActionButton11"
+        fab:fab_colorNormal="#eddc4537"
+        fab:fab_colorPressed="#dd5245"
+        fab:fab_colorRipple="#dd5346"
+        fab:fab_label="Витамины"
+        fab:fab_size="normal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="15dp"
+        android:src="@drawable/fab_add"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true" />
+
+
+    <EditText
+        android:id="@+id/editText_stAimag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/editText_stName"
+        android:layout_alignStart="@+id/editText_stName"
+        android:layout_below="@+id/editText_stName"
+        android:layout_marginBottom="2dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/textView169"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Зүчээ ба бэлчээр "
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="22dp" />
+
+    <TextView
+        android:id="@+id/textView170"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Төрөл:"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_below="@+id/floatingActionButton11"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="29dp"
+        android:layout_marginTop="7dp" />
+
+    <Spinner
+        android:id="@+id/spinner_stable"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/textView170"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="18dp"
+        android:layout_toEndOf="@+id/textView170" />
+
+    <TextView
+        android:id="@+id/textView171"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14dp"
+        android:text="Нэр:"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_below="@+id/spinner_stable"
+        android:layout_alignStart="@+id/textView170" />
+
+    <TextView
+        android:id="@+id/textView172"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView171"
+        android:layout_below="@+id/textView171"
+        android:layout_marginTop="16dp"
+        android:text="Аймаг:"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView173"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView172"
+        android:layout_below="@+id/textView172"
+        android:layout_marginTop="15dp"
+        android:text="Сум:"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView174"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView173"
+        android:layout_below="@+id/editText_stSum"
+        android:layout_marginBottom="3dp"
+        android:layout_toStartOf="@+id/editText_stSum"
+        android:text="Адууны тоо:"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView175"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView177"
+        android:layout_below="@+id/editText_stMalchin"
+        android:layout_marginTop="5dp"
+        android:text="Нарны хувь:"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView176"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Малчдын тоо:"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_alignBaseline="@+id/editText_stMaclhdtoo"
+        android:layout_alignBottom="@+id/editText_stMaclhdtoo"
+        android:layout_alignStart="@+id/textView174" />
+
+    <TextView
+        android:id="@+id/textView177"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Улирал:"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_alignBaseline="@+id/editText_stSeason"
+        android:layout_alignBottom="@+id/editText_stSeason"
+        android:layout_alignStart="@+id/textView176" />
+
+    <TextView
+        android:id="@+id/textView178"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Хариуцагч малчин: "
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_below="@+id/editText_stSeason"
+        android:layout_alignStart="@+id/textView175"
+        android:layout_alignEnd="@+id/textView180" />
+
+    <TextView
+        android:id="@+id/textView179"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Өвсний хувь:"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_below="@+id/spinner_sun"
+        android:layout_alignStart="@+id/textView175" />
+
+    <TextView
+        android:id="@+id/textView180"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView179"
+        android:layout_below="@+id/textView179"
+        android:layout_marginTop="14dp"
+        android:text="Усны хувь:"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editText_stName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView171"
+        android:layout_alignBottom="@+id/textView171"
+        android:layout_alignEnd="@+id/spinner_stable"
+        android:layout_alignStart="@+id/spinner_stable"
+        android:layout_marginBottom="2dp"
+        android:ems="10"
+        android:textSize="14sp" />
+
+    <EditText
+        android:id="@+id/editText_stSum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/editText_stAimag"
+        android:layout_alignStart="@+id/editText_stAimag"
+        android:layout_below="@+id/editText_stAimag"
+        android:layout_marginBottom="2dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textSize="14sp" />
+
+    <EditText
+        android:id="@+id/editText_StAduutoo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/editText_stSum"
+        android:layout_below="@+id/editText_stSum"
+        android:layout_marginBottom="2dp"
+        android:layout_toEndOf="@+id/textView178"
+        android:ems="10"
+        android:inputType="number"
+        android:textSize="14sp" />
+
+    <EditText
+        android:id="@+id/editText_stMaclhdtoo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/editText_StAduutoo"
+        android:layout_below="@+id/textView174"
+        android:layout_toEndOf="@+id/textView176"
+        android:ems="10"
+        android:inputType="number"
+        android:textSize="14sp" />
+
+    <EditText
+        android:id="@+id/editText_stSeason"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/editText_stMaclhdtoo"
+        android:layout_alignStart="@+id/editText_stMaclhdtoo"
+        android:layout_marginBottom="2dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textSize="14sp"
+        android:layout_below="@+id/editText_stMaclhdtoo" />
+
+    <EditText
+        android:id="@+id/editText_stMalchin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/editText_stSeason"
+        android:layout_alignTop="@+id/textView178"
+        android:layout_marginBottom="2dp"
+        android:layout_marginTop="2dp"
+        android:layout_toEndOf="@+id/textView179"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textSize="14sp" />
+
+    <Spinner
+        android:id="@+id/spinner_sun"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/editText_stMalchin"
+        android:layout_alignStart="@+id/editText_stMalchin"
+        android:layout_alignTop="@+id/textView175"
+        android:layout_alignBottom="@+id/textView175" />
+
+    <Spinner
+        android:id="@+id/spinner_grass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/spinner_sun"
+        android:layout_toEndOf="@+id/textView179" />
+
+    <Spinner
+        android:id="@+id/spinner_water"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView180"
+        android:layout_alignEnd="@+id/editText_stMalchin"
+        android:layout_marginBottom="2dp"
+        android:layout_toEndOf="@+id/textView179" />
+
+    <TextView
+        android:id="@+id/textView181"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Талбай:"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_alignBaseline="@+id/editText6"
+        android:layout_alignBottom="@+id/editText6"
+        android:layout_alignStart="@+id/textView180" />
+
+    <EditText
+        android:id="@+id/editText6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/spinner_water"
+        android:layout_alignStart="@+id/spinner_water"
+        android:layout_below="@+id/spinner_water"
+        android:ems="10"
+        android:inputType="number|numberSigned"
+        android:textSize="14sp" />
+
+</RelativeLayout>

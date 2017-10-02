@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="Адуунууд">
+        <menu>
+            <item
+                android:id="@+id/nav_azarga_layout"
+                android:icon="@drawable/azarga_menu"
+                android:title="Азарга" />
+            <item
+                android:id="@+id/nav_morid_layout"
+                android:icon="@drawable/mori"
+                android:title="Морь" />
+            <item
+                android:id="@+id/nav_guu_layout"
+                android:icon="@drawable/guu"
+                android:title="Гүү" />
+            <item
+                android:id="@+id/nav_unaga_layout"
+                android:icon="@drawable/unaga"
+                android:title="Унага" />
+        </menu>
+    </item>
+    <item android:title="Ажилууд ">
+        <menu>
+            <item
+                android:id="@+id/nav_belcheer_layout"
+                android:icon="@drawable/zuchee"
+                android:title="Зүчээ ба бэлчээр" />
+            <item
+                android:id="@+id/nav_tejeel_layout"
+                android:icon="@drawable/wheat"
+                android:title="Тэжээл ба витамин" />
+            <item
+                android:id="@+id/nav_sungaa_layout"
+                android:icon="@drawable/sungaa"
+                android:title="Уралдаан ба сунгаа" />
+
+            <item
+                android:id="@+id/nav_ajil_layout"
+                android:icon="@drawable/note"
+                android:title="Ажлын жагсаалт" />
+        </menu>
+    </item>
+
+    <item android:title="Статистик">
+        <menu>
+            <item
+                android:id="@+id/nav_shagnal"
+                android:icon="@drawable/shagnal"
+                android:title="Шагналууд " />
+            <item
+                android:id="@+id/nav_orlogo_zarlaga"
+                android:icon="@drawable/orlogo"
+                android:title="Орлого зарлага" />
+        </menu>
+    </item>
+    <item android:title="Хувийн">
+        <menu>
+            <item
+                android:id="@+id/nav_profile"
+                android:icon="@drawable/user"
+                android:title="Миний хуудас" />
+            <item
+                android:id="@+id/nav_settings"
+                android:icon="@drawable/ic_menu_manage"
+                android:title="Тохиргоо" />
+            <item
+                android:id="@+id/nav_help"
+                android:icon="@drawable/help"
+                android:title="Тусламж" />
+        </menu>
+    </item>
+
+</menu>

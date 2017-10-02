@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <android.support.v7.widget.CardView
+
+
+        android:id="@+id/row_card"
+
+
+        android:layout_width="match_parent"
+
+
+        android:layout_height="wrap_content"
+        android:layout_margin="3dp"
+        android:layout_weight="0.04"
+        app:cardCornerRadius="5dp">
+
+
+        <RelativeLayout
+
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/name_todolist"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/date_todolist"
+                android:layout_margin="10dp"
+                android:fontFamily="sans-serif"
+                android:textAllCaps="true"
+                android:textColor="@color/cardview_dark_background"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/date_todolist"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/name_todolist"
+                android:layout_alignParentTop="true"
+                android:layout_alignStart="@+id/name_todolist"
+                android:textColor="@color/common_google_signin_btn_text_light_focused" />
+
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+</LinearLayout>

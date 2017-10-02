@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.example.dovchin.horseapplication1.methods.AddOlympActivity">
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginRight="15dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/olympics"
+        android:layout_alignTop="@+id/textView10000"
+        android:layout_alignEnd="@+id/textView81" />
+
+    <TextView
+        android:id="@+id/textView10000"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="24dp"
+        android:text="Уралдаан:"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintHorizontal_bias="0.888"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="78dp"
+        tools:layout_editor_absoluteY="10dp"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/textView72" />
+
+    <TextView
+        android:id="@+id/textView72"
+        android:layout_width="84dp"
+        android:layout_height="23dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/imageView12"
+        android:layout_marginLeft="14dp"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/name"
+        android:textSize="16sp"
+        app:layout_constraintHorizontal_bias="0.084"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView74"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView72"
+        android:layout_alignStart="@+id/textView72"
+        android:layout_below="@+id/textView72"
+        android:layout_marginTop="8dp"
+        android:text="Төрөл:"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView76"
+        app:layout_constraintHorizontal_bias="0.07"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView72"
+        app:layout_constraintVertical_bias="0.888" />
+
+    <TextView
+        android:id="@+id/textView76"
+        android:layout_width="103dp"
+        android:layout_height="43dp"
+        android:layout_alignLeft="@+id/textView74"
+        android:layout_alignStart="@+id/textView74"
+        android:layout_below="@+id/textView74"
+        android:layout_marginTop="10dp"
+        android:text="Явагдсан огноо:"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView77"
+        app:layout_constraintHorizontal_bias="0.086"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="157dp" />
+
+    <TextView
+        android:id="@+id/textView77"
+        android:layout_width="90dp"
+        android:layout_height="41dp"
+        android:layout_alignStart="@+id/textView76"
+        android:layout_below="@+id/textView76"
+        android:layout_marginTop="11dp"
+        android:text="Явагдсан газар:"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView78"
+        app:layout_constraintHorizontal_bias="0.086"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <TextView
+        android:id="@+id/textView78"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView77"
+        android:layout_alignStart="@+id/textView77"
+        android:layout_below="@+id/textView77"
+        android:layout_marginTop="10dp"
+        android:text="Ангилал:"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView79"
+        app:layout_constraintHorizontal_bias="0.083"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <TextView
+        android:id="@+id/textView79"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView78"
+        android:layout_alignStart="@+id/textView78"
+        android:layout_below="@+id/textView78"
+        android:layout_marginTop="14dp"
+        android:text="Оролцсон адууны тоо:"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView80"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_alignEnd="@+id/textView76" />
+
+
+    <TextView
+        android:id="@+id/textViewOName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_alignBottom="@+id/textView72"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/textViewOType"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintTop_toBottomOf="@+id/textViewOName"
+        android:layout_above="@+id/textView76"
+        android:layout_alignLeft="@+id/textViewOName"
+        android:layout_alignStart="@+id/textViewOName" />
+
+    <TextView
+        android:id="@+id/textViewODay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        tools:layout_editor_absoluteY="168dp"
+        tools:layout_editor_absoluteX="152dp"
+        android:layout_alignTop="@+id/textView76"
+        android:layout_alignLeft="@+id/textViewOType"
+        android:layout_alignStart="@+id/textViewOType"
+        android:layout_marginTop="11dp" />
+
+    <TextView
+        android:id="@+id/textViewOplace"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewODay"
+        app:layout_constraintHorizontal_bias="0.501"
+        android:layout_alignBottom="@+id/textView77"
+        android:layout_alignLeft="@+id/textViewODay"
+        android:layout_alignStart="@+id/textViewODay"
+        android:layout_marginBottom="12dp" />
+
+    <TextView
+        android:id="@+id/textViewOCate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewOplace"
+        app:layout_constraintHorizontal_bias="0.501"
+        android:layout_above="@+id/textView79"
+        android:layout_alignLeft="@+id/textViewOplace"
+        android:layout_alignStart="@+id/textViewOplace" />
+
+    <TextView
+        android:id="@+id/textViewONumb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:layout_alignBaseline="@+id/textView79"
+        android:layout_alignBottom="@+id/textView79"
+        android:layout_alignStart="@+id/textViewOCate" />
+
+    <TextView
+        android:id="@+id/textViewODesc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewONumb"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        android:layout_alignBottom="@+id/textView81"
+        android:layout_alignLeft="@+id/textViewOCate"
+        android:layout_alignStart="@+id/textViewOCate" />
+
+    <Button
+        android:id="@+id/buttonEditOlym"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewODesc"
+        android:layout_marginTop="68dp"
+        android:layout_toStartOf="@+id/textViewODesc"
+        android:background="@drawable/button_blue"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:text="@string/but_edit"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent" />
+
+
+    <Button
+        android:id="@+id/buttonDelOl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/buttonEditOlym"
+        android:layout_alignBottom="@+id/buttonEditOlym"
+        android:layout_marginLeft="50dp"
+        android:layout_marginStart="50dp"
+        android:layout_toEndOf="@+id/buttonEditOlym"
+        android:background="@drawable/button_blue"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:text="@string/but_del"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toRightOf="@+id/buttonEditOlym"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <TextView
+        android:id="@+id/textView81"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView79"
+        android:layout_alignStart="@+id/textView79"
+        android:layout_below="@+id/textView79"
+        android:layout_marginTop="12dp"
+        android:text="Тайлбар:"
+        android:textSize="16sp" />
+    <android.support.design.widget.BottomNavigationView
+
+        android:id="@+id/bottom_navigation_menu"
+
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentBottom="true"
+
+        app:itemBackground="@color/colorPrimaryDark"
+
+        app:itemIconTint="@android:color/white"
+
+        app:itemTextColor="@android:color/white"
+
+        app:menu="@menu/bottom_navigation_menu"
+        />
+
+</RelativeLayout>

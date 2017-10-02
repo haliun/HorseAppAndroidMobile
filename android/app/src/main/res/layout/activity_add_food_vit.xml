@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.dovchin.horseapplication1.methods.AddFoodVitActivity"
+    xmlns:fab="http://schemas.android.com/apk/res-auto">
+
+    <TextView
+        android:id="@+id/textView115"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/editTextFoodSum"
+        android:layout_alignBottom="@+id/editTextFoodSum"
+        android:layout_alignLeft="@+id/textView121"
+        android:layout_alignStart="@+id/textView121"
+        android:text="Үнэ:"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView116"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textViewCountMale"
+        android:layout_marginBottom="15dp"
+        android:layout_marginLeft="22dp"
+        android:layout_toEndOf="@+id/imageView17"
+        android:text="Тэжээл ба витамин "
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView17"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="28dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="14dp"
+        app:srcCompat="@drawable/wheat_color" />
+
+    <TextView
+        android:id="@+id/textViewCountMale"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="Нэр:"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_below="@+id/imageView17"
+        android:layout_alignStart="@+id/imageView17" />
+
+    <TextView
+        android:id="@+id/textViewCountFemale"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textViewCountMale"
+        android:layout_below="@+id/editTextFoodName"
+        android:text="Төрөл:"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView120"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textViewCountFemale"
+        android:layout_below="@+id/spinner_food"
+        android:text="Огноо:"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView121"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/editTextFoddQuan"
+        android:layout_alignBottom="@+id/editTextFoddQuan"
+        android:layout_alignLeft="@+id/textViewCountFemale"
+        android:layout_alignStart="@+id/textViewCountFemale"
+        android:text="Хэмжээ:"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView122"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Тайлбар:"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_alignBaseline="@+id/editTextFoodDEsc"
+        android:layout_alignBottom="@+id/editTextFoodDEsc"
+        android:layout_alignStart="@+id/textView115" />
+
+    <EditText
+        android:id="@+id/editTextFoodName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textViewCountMale"
+        android:layout_alignBottom="@+id/textViewCountMale"
+        android:layout_alignLeft="@+id/spinner_food"
+        android:layout_alignStart="@+id/spinner_food"
+        android:layout_marginBottom="2dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textSize="14sp"
+        android:layout_alignRight="@+id/spinner_food"
+        android:layout_alignEnd="@+id/spinner_food" />
+
+    <Spinner
+        android:id="@+id/spinner_food"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignEnd="@+id/fab_save_food"
+        android:layout_alignLeft="@+id/editTextFoodDate"
+        android:layout_alignRight="@+id/fab_save_food"
+        android:layout_alignStart="@+id/editTextFoodDate"
+        android:layout_below="@+id/editTextFoodName"
+        android:layout_marginBottom="2dp"
+        android:spinnerMode="dialog" />
+
+    <EditText
+        android:id="@+id/editTextFoodDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/spinner_food"
+        android:layout_marginBottom="2dp"
+        android:layout_toEndOf="@+id/textView122"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textSize="14sp" />
+
+    <EditText
+        android:id="@+id/editTextFoddQuan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editTextFoodDate"
+        android:layout_marginBottom="2dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textSize="14sp"
+        android:layout_alignRight="@+id/spinner_food"
+        android:layout_alignEnd="@+id/spinner_food"
+        android:layout_toEndOf="@+id/textView122" />
+
+    <EditText
+        android:id="@+id/editTextFoodSum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/editTextFoddQuan"
+        android:layout_alignRight="@+id/editTextFoddQuan"
+        android:layout_below="@+id/editTextFoddQuan"
+        android:layout_marginBottom="2dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textSize="14sp"
+        android:layout_toEndOf="@+id/textView122" />
+
+    <EditText
+        android:id="@+id/editTextFoodDEsc"
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:layout_alignEnd="@+id/editTextFoodSum"
+        android:layout_alignRight="@+id/editTextFoodSum"
+        android:ems="10"
+        android:inputType="textMultiLine"
+        android:textSize="14sp"
+        android:layout_below="@+id/editTextFoodSum"
+        android:layout_toEndOf="@+id/textView122" />
+
+    <com.github.clans.fab.FloatingActionButton
+        android:id="@+id/fab_save_food"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/fab_add"
+        fab:fab_colorNormal="#eddc4537"
+        fab:fab_colorPressed="#dd5245"
+        fab:fab_colorRipple="#dd5346"
+        fab:fab_label="Витамины"
+        fab:fab_size="normal"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="14dp"
+        android:layout_marginEnd="18dp"
+        android:layout_below="@+id/editTextFoodDEsc"
+        android:layout_alignEnd="@+id/bottom_navigation_menu" />
+
+    <Button
+        android:id="@+id/button_date_food"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:text="DAte"
+        android:textColor="@color/colorAccent"
+        android:layout_above="@+id/editTextFoddQuan"
+        android:layout_toRightOf="@+id/editTextFoodDate"
+        android:layout_toEndOf="@+id/editTextFoodDate"
+        android:layout_alignTop="@+id/editTextFoodDate" />
+
+    <android.support.design.widget.BottomNavigationView
+
+        android:id="@+id/bottom_navigation_menu"
+
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentBottom="true"
+
+        app:itemBackground="@color/colorPrimaryDark"
+
+        app:itemIconTint="@android:color/white"
+
+        app:itemTextColor="@android:color/white"
+
+        app:menu="@menu/bottom_navigation_menu"
+        />
+</RelativeLayout>

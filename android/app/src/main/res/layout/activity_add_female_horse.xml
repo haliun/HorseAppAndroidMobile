@@ -1,0 +1,408 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+    <CheckBox
+        android:id="@+id/checkBox2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Идэвхитэй"
+        android:textColor="@color/cardview_dark_background"
+        android:textSize="12sp"
+        android:layout_below="@+id/spinner_female"
+        android:layout_toEndOf="@+id/textView61"
+        android:layout_above="@+id/editTextName_female" />
+
+    <TextView
+        android:id="@+id/textView124"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Статус:"
+        android:textSize="14sp"
+        android:layout_below="@+id/textView61"
+        android:layout_alignStart="@+id/textView58" />
+
+    <TextView
+        android:id="@+id/textView64"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView60"
+        android:layout_alignBottom="@+id/textView60"
+        android:layout_toLeftOf="@+id/spinner_female"
+        android:text="*"
+        android:textColor="@android:color/holo_red_dark"
+        android:textStyle="bold"
+        android:layout_toRightOf="@+id/textView68"
+        android:layout_toEndOf="@+id/textView68" />
+
+    <TextView
+        android:id="@+id/textView61"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginStart="8dp"
+        android:text="*"
+        android:textColor="@android:color/holo_red_dark"
+        android:textStyle="bold"
+        android:layout_alignBaseline="@+id/textView58"
+        android:layout_alignBottom="@+id/textView58"
+        android:layout_toRightOf="@+id/textView58"
+        android:layout_toEndOf="@+id/textView58" />
+
+    <TextView
+        android:id="@+id/textView52"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/imageButtonImg_female"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/imageButtonImg_female"
+        android:text="@string/guu_nemeh"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView56"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/imageButtonImg_female"
+        android:layout_alignStart="@+id/imageButtonImg_female"
+        android:layout_below="@+id/textView52"
+        android:layout_marginLeft="12dp"
+        android:layout_marginStart="12dp"
+        android:fontFamily="sans-serif"
+        android:text="@string/azarga_zurag_nemeh"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView57"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="*"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginLeft="9dp"
+        android:layout_marginStart="9dp"
+        android:layout_alignBaseline="@+id/textView56"
+        android:layout_alignBottom="@+id/textView56"
+        android:layout_toRightOf="@+id/textView56"
+        android:layout_toEndOf="@+id/textView56" />
+
+    <ImageButton
+        android:id="@+id/imageButtonImg_female"
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView56"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        app:srcCompat="@android:drawable/ic_menu_gallery" />
+
+    <TextView
+        android:id="@+id/textView58"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/imageButtonImg_female"
+        android:layout_alignStart="@+id/imageButtonImg_female"
+        android:layout_below="@+id/imageButtonImg_female"
+        android:layout_marginTop="13dp"
+        android:text="Сүрэг:" />
+
+    <TextView
+        android:id="@+id/textView59"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="*"
+        android:textColor="@android:color/holo_red_dark"
+        android:textStyle="bold"
+        android:layout_marginLeft="7dp"
+        android:layout_marginStart="7dp"
+        android:layout_alignBaseline="@+id/textView63"
+        android:layout_alignBottom="@+id/textView63"
+        android:layout_toRightOf="@+id/textView63"
+        android:layout_toEndOf="@+id/textView63" />
+
+    <Spinner
+        android:id="@+id/spinner_female"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView61"
+        android:layout_marginBottom="2dp"
+        android:layout_toEndOf="@+id/textView61"
+        android:background="@color/common_google_signin_btn_text_dark_default"
+        android:spinnerMode="dialog"
+        android:layout_below="@+id/imageButtonImg_female" />
+
+    <TextView
+        android:id="@+id/textView60"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/azarga_ner"
+        android:layout_below="@+id/textView58"
+        android:layout_alignStart="@+id/textView58"
+        android:layout_marginTop="24dp" />
+
+    <TextView
+        android:id="@+id/textView62"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ID:"
+        android:layout_below="@+id/textView60"
+        android:layout_alignLeft="@+id/textView60"
+        android:layout_alignStart="@+id/textView60" />
+
+    <TextView
+        android:id="@+id/textView63"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView62"
+        android:layout_alignStart="@+id/textView62"
+        android:layout_below="@+id/textView62"
+        android:text="@string/mori_ugshil" />
+
+    <EditText
+        android:id="@+id/editTextName_female"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView64"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="2dp"
+        android:background="@color/common_google_signin_btn_text_dark_default"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:layout_alignTop="@+id/textView64"
+        android:layout_alignStart="@+id/spinner_female" />
+
+    <EditText
+        android:id="@+id/editTextId_female"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView59"
+        android:layout_alignLeft="@+id/editTextName_female"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignStart="@+id/editTextName_female"
+        android:layout_below="@+id/editTextName_female"
+        android:layout_marginBottom="2dp"
+        android:background="@color/common_google_signin_btn_text_dark_default"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/editTextBreed_female"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView59"
+        android:layout_alignLeft="@+id/editTextId_female"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignStart="@+id/editTextId_female"
+        android:layout_below="@+id/editTextId_female"
+        android:layout_marginBottom="2dp"
+        android:background="@color/common_google_signin_btn_text_dark_default"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/textView65"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView63"
+        android:layout_alignStart="@+id/textView63"
+        android:layout_below="@+id/textView63"
+        android:text="@string/mori_zus" />
+
+    <TextView
+        android:id="@+id/tview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView65"
+        android:layout_alignStart="@+id/textView65"
+        android:layout_below="@+id/textView65"
+        android:text="@string/date_Azarga" />
+
+    <TextView
+        android:id="@+id/textView67"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tview"
+        android:layout_alignStart="@+id/tview"
+        android:layout_below="@+id/tview"
+        android:text="@string/gazar" />
+
+    <TextView
+        android:id="@+id/textView68"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView67"
+        android:layout_below="@+id/textView67"
+        android:text="@string/mori_tsus" />
+
+    <TextView
+        android:id="@+id/textView69"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/etseg"
+        android:layout_below="@+id/textView68"
+        android:layout_alignStart="@+id/textView70" />
+
+    <TextView
+        android:id="@+id/textView70"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView68"
+        android:layout_alignStart="@+id/textView68"
+        android:layout_below="@+id/textView69"
+        android:text="@string/eh" />
+
+    <TextView
+        android:id="@+id/textView71"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tamga_azarga"
+        android:layout_below="@+id/textView70"
+        android:layout_alignStart="@+id/textView70" />
+
+    <EditText
+        android:id="@+id/editTextColor_female"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/tview"
+        android:layout_alignLeft="@+id/editTextBreed_female"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignStart="@+id/editTextBreed_female"
+        android:layout_below="@+id/editTextBreed_female"
+        android:layout_marginBottom="2dp"
+        android:background="@color/common_google_signin_btn_text_dark_default"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/editTextDay_female"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/editTextPlace_female"
+        android:layout_alignTop="@+id/buttonDay_female"
+        android:layout_marginBottom="2dp"
+        android:layout_toEndOf="@+id/tview"
+        android:layout_toRightOf="@+id/tview"
+        android:background="@color/common_google_signin_btn_text_dark_default"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/buttonDay_female"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/editTextColor_female"
+        android:layout_toRightOf="@+id/editTextDay_female"
+        android:background="@null"
+        android:text="Date"
+        android:textColor="@color/colorAccent"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        android:layout_alignBottom="@+id/tview" />
+
+    <EditText
+        android:id="@+id/editTextPlace_female"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/editTextBlood_female"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/tview"
+        android:layout_marginBottom="2dp"
+        android:layout_toEndOf="@+id/textView67"
+        android:layout_toRightOf="@+id/textView67"
+        android:background="@color/common_google_signin_btn_text_dark_default"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/editTextBlood_female"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView68"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/textView67"
+        android:layout_marginBottom="2dp"
+        android:layout_toEndOf="@+id/textView71"
+        android:layout_toRightOf="@+id/textView71"
+        android:background="@color/common_google_signin_btn_text_dark_default"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/editTextDad_female"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/editTextMom_female"
+        android:layout_alignLeft="@+id/editTextBlood_female"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignStart="@+id/editTextBlood_female"
+        android:layout_below="@+id/editTextBlood_female"
+        android:layout_marginBottom="2dp"
+        android:background="@color/common_google_signin_btn_text_dark_default"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/editTextMom_female"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/common_google_signin_btn_text_dark_default"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:layout_above="@+id/textView71"
+        android:layout_below="@+id/textView69"
+        android:layout_alignParentEnd="true" />
+
+    <ImageButton
+        android:id="@+id/imageButtonMark_female"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/textView71"
+        android:layout_marginBottom="1dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="2dp"
+        android:layout_toEndOf="@+id/textView67"
+        android:layout_toRightOf="@+id/textView67"
+        app:srcCompat="@android:drawable/ic_menu_gallery" />
+
+    <Button
+        android:id="@+id/buttonSave_female"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/imageButtonImg_female"
+        android:layout_alignEnd="@+id/imageButtonImg_female"
+        android:layout_alignRight="@+id/imageButtonImg_female"
+        android:background="@drawable/button_blue"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:text="Хадгалах"
+        android:textColor="@color/cardview_light_background"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

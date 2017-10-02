@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_favorites"
+        android:icon="@drawable/stallion24"
+        android:title="Азарга"
+        app:showAsAction="withText" />
+    <item
+        android:id="@+id/action_male"
+        android:enabled="true"
+        android:icon="@drawable/male24"
+        android:title="Морь"
+        app:showAsAction="withText" />
+    <item
+        android:id="@+id/action_schedules"
+        android:enabled="true"
+        android:icon="@drawable/home24"
+        android:title="Нүүр"
+        app:showAsAction="withText" />
+    <item
+        android:id="@+id/action_music"
+        android:enabled="true"
+        android:icon="@drawable/female24"
+        android:title="Гүү"
+        app:showAsAction="withText" />
+    <item
+        android:id="@+id/action_colt"
+        android:enabled="true"
+        android:icon="@drawable/colt24"
+        android:title="Унага"
+        app:showAsAction="withText" />
+</menu>

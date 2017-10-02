@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="150dp"
+        android:layout_height="120dp"
+        android:contentDescription="@string/mori3"
+        android:src="@mipmap/ic_launcher" />
+
+    <TextView
+        android:id="@+id/textViewmorinamem"
+
+
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+
+
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/imageView6"
+
+
+        android:gravity="center"
+        android:text="New Text"
+
+
+        android:textSize="18sp"
+
+
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView95"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewmorinamem"
+        android:layout_centerHorizontal="true"
+        android:text="Сүрэг:"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView96"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textViewMori2"
+        android:layout_alignStart="@+id/textViewMori2"
+        android:layout_below="@+id/textViewmorinamem"
+        android:text="TextView"
+        android:textSize="15sp"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/textViewMori2"
+
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+
+        android:layout_alignBaseline="@+id/textView"
+        android:layout_alignBottom="@+id/textView"
+        android:layout_marginLeft="41dp"
+        android:layout_marginStart="41dp"
+        android:layout_toEndOf="@+id/textView"
+        android:layout_toRightOf="@+id/textView"
+        android:gravity="center"
+        android:text="New Text"
+        android:textSize="15sp"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView95"
+        android:layout_alignStart="@+id/textView95"
+        android:layout_below="@+id/textView95"
+        android:layout_marginTop="10dp"
+        android:text="@string/ugshil2"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textStyle="bold" />
+
+</RelativeLayout>

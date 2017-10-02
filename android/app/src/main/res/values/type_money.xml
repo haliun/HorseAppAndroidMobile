@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="type_money">
+        <item>Орлого</item>
+        <item>Зарлага</item>
+    </string-array>
+</resources>

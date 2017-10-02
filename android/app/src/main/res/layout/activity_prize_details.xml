@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.dovchin.horseapplication1.Activities.PrizeDetailsActivity">
+
+    <ImageView
+        android:id="@+id/imageView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="25dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="19dp"
+        app:srcCompat="@drawable/prize_color" />
+
+    <TextView
+        android:id="@+id/textView83"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="13dp"
+        android:text="Шагнал "
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_alignBottom="@+id/imageView15"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="17dp" />
+
+    <TextView
+        android:id="@+id/textView86"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/imageView15"
+        android:layout_below="@+id/imageView15"
+        android:layout_marginRight="11dp"
+        android:layout_marginTop="40dp"
+        android:text="Нэр:"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView87"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView86"
+        android:layout_alignStart="@+id/textView86"
+        android:layout_below="@+id/textView86"
+        android:layout_marginTop="17dp"
+        android:text="Авсан огноо:"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView88"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView87"
+        android:layout_alignStart="@+id/textView87"
+        android:layout_below="@+id/textView87"
+        android:layout_marginTop="21dp"
+        android:text="Авсан уралдаан:"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_alignEnd="@+id/textView87" />
+
+    <TextView
+        android:id="@+id/textView89"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView88"
+        android:layout_alignStart="@+id/textView88"
+        android:layout_below="@+id/textView88"
+        android:layout_marginTop="17dp"
+        android:text="Тайлбар:"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textViewDetPName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView86"
+        android:layout_alignBottom="@+id/textView86"
+        android:layout_centerHorizontal="true"
+        android:text="TextView"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/textViewdetPDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/textViewDetPName"
+        android:layout_alignRight="@+id/textViewDetPName"
+        android:layout_alignTop="@+id/textView87"
+        android:text="TextView"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/textViewDetPOlymp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/textViewdetPDate"
+        android:layout_alignRight="@+id/textViewdetPDate"
+        android:layout_alignTop="@+id/textView88"
+        android:text="TextView"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/button_edit_prize"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/bottom_navigation_menu"
+
+        android:layout_marginBottom="22dp"
+        android:layout_toStartOf="@+id/textViewDetPdesc"
+        android:background="@drawable/button_blue"
+        android:text="Засах " />
+
+    <TextView
+        android:id="@+id/textViewDetPdesc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textSize="16sp"
+        android:layout_alignBaseline="@+id/textView89"
+        android:layout_alignBottom="@+id/textView89"
+        android:layout_alignStart="@+id/textViewDetPOlymp" />
+
+    <Button
+        android:id="@+id/button_del_prize"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/button_edit_prize"
+        android:layout_alignBottom="@+id/button_edit_prize"
+        android:layout_marginLeft="34dp"
+        android:layout_marginStart="11dp"
+        android:layout_toEndOf="@+id/textViewDetPdesc"
+        android:background="@drawable/button_blue"
+        android:text="Устгах " />
+    <android.support.design.widget.BottomNavigationView
+
+        android:id="@+id/bottom_navigation_menu"
+
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentBottom="true"
+
+        app:itemBackground="@color/colorPrimaryDark"
+
+        app:itemIconTint="@android:color/white"
+
+        app:itemTextColor="@android:color/white"
+
+        app:menu="@menu/bottom_navigation_menu"
+        />
+</RelativeLayout>

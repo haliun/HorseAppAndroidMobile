@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.dovchin.horseapplication1.Activities.StableDetailsActivity">
+
+    <TextView
+        android:id="@+id/textView169"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="15dp"
+        android:layout_marginTop="10dp"
+        android:text="Зүчээ ба бэлчээр "
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView170"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView169"
+        android:layout_marginBottom="5dp"
+        android:layout_toStartOf="@+id/textView169"
+        android:text="Төрөл:"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView171"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView170"
+        android:layout_below="@+id/textView170"
+        android:layout_marginBottom="5dp"
+        android:text="Нэр:"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView172"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/textView170"
+        android:layout_below="@+id/textView171"
+        android:layout_marginBottom="5dp"
+        android:text="Аймаг:"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView173"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView171"
+        android:layout_below="@+id/textView172"
+        android:layout_marginBottom="5dp"
+        android:text="Сум:"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView174"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView173"
+        android:layout_below="@+id/textView173"
+        android:layout_marginBottom="5dp"
+        android:text="Адууны тоо:"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView175"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView178"
+        android:layout_below="@+id/textView178"
+        android:layout_marginBottom="5dp"
+        android:text="Нарны хувь:"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView176"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView174"
+        android:layout_below="@+id/textView174"
+        android:layout_marginBottom="5dp"
+        android:text="Малчдын тоо:"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView177"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView176"
+        android:layout_below="@+id/textView176"
+        android:layout_marginBottom="5dp"
+
+        android:text="Улирал:"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView178"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView172"
+        android:layout_below="@+id/textView177"
+        android:layout_marginBottom="5dp"
+        android:text="Хариуцагч малчин: "
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_alignEnd="@+id/textView174" />
+
+    <TextView
+        android:id="@+id/textView179"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView177"
+        android:layout_below="@+id/textView175"
+        android:layout_marginBottom="5dp"
+        android:text="Өвсний хувь:"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView180"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView179"
+        android:layout_below="@+id/textView179"
+        android:layout_marginBottom="5dp"
+        android:text="Усны хувь:"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_blue"
+        android:text="@string/but_edit"
+        android:layout_below="@+id/textView183"
+        android:layout_toEndOf="@+id/textView173"
+        android:layout_marginTop="14dp" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_blue"
+        android:text="@string/but_del"
+        android:layout_alignBaseline="@+id/button2"
+        android:layout_alignBottom="@+id/button2"
+        android:layout_toEndOf="@+id/textView_st_sum" />
+
+    <TextView
+        android:id="@+id/textView_st_type"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView170"
+        android:layout_alignBottom="@+id/textView170"
+        android:layout_alignStart="@+id/textView_st_name"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/textView_st_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:layout_alignBaseline="@+id/textView171"
+        android:layout_alignBottom="@+id/textView171"
+        android:layout_alignStart="@+id/textView_st_aimag" />
+
+    <TextView
+        android:id="@+id/textView_st_aimag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/textView172"
+        android:layout_toEndOf="@+id/textView180"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/textView_st_sum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:layout_alignTop="@+id/textView173"
+        android:layout_alignStart="@+id/textView_st_aimag" />
+
+    <TextView
+        android:id="@+id/textView_st_aduu_too"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/textView174"
+        android:layout_toEndOf="@+id/textView176"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/textView_st_malch_too"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:layout_alignTop="@+id/textView176"
+        android:layout_toEndOf="@+id/button2" />
+
+    <TextView
+        android:id="@+id/textView_st_season"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView_st_malch_too"
+        android:layout_alignTop="@+id/textView177"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/textView_st_malchin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:layout_alignTop="@+id/textView178"
+        android:layout_toEndOf="@+id/textView176" />
+
+    <TextView
+        android:id="@+id/textView_st_nar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/textView_st_malchin"
+        android:layout_alignTop="@+id/textView175"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/textView_st_uvs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/textView_st_nar"
+        android:layout_alignTop="@+id/textView179"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/textView_st_us"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView180"
+        android:layout_alignStart="@+id/textView_st_uvs"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/textView183"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView180"
+        android:layout_below="@+id/textView180"
+        android:text=" Талбай:"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView_st_talbai"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView183"
+        android:layout_alignBottom="@+id/textView183"
+        android:layout_alignStart="@+id/textView_st_us"
+        android:text="TextView" />
+
+</RelativeLayout>

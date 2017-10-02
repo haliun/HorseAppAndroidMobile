@@ -1,0 +1,442 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+
+    <CheckBox
+        android:id="@+id/checkBox3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Идэвхитэй"
+        android:textSize="12sp"
+        android:layout_alignBottom="@+id/textView125"
+        android:layout_toEndOf="@+id/textView10"
+        android:layout_below="@+id/spinner_male" />
+
+    <TextView
+        android:id="@+id/textView125"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Статус:"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_above="@+id/textView110"
+        android:layout_alignStart="@+id/textView113" />
+
+    <TextView
+        android:id="@+id/textView114"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="*"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_alignBaseline="@+id/textView7m"
+        android:layout_alignBottom="@+id/textView7m"
+        android:layout_toEndOf="@+id/textView10" />
+
+    <TextView
+        android:id="@+id/textView111"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="*"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_alignBaseline="@+id/textView11m"
+        android:layout_alignBottom="@+id/textView11m"
+        android:layout_toRightOf="@+id/textView11m"
+        android:layout_toEndOf="@+id/textView11m" />
+
+    <TextView
+        android:id="@+id/textView110"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="*"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_alignTop="@+id/textView8м"
+        android:layout_toEndOf="@+id/textView18m" />
+
+    <Button
+        android:id="@+id/button25"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/imageButton_img_male"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/button_blue"
+        android:onClick="submitMori"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:text="@string/save_azarga_adding"
+        android:textColor="@color/cardview_light_background"
+        android:textColorHint="#298fd8"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/button6"
+        android:layout_alignBottom="@+id/button6"
+        android:layout_alignLeft="@+id/textView7m"
+        android:layout_alignStart="@+id/textView7m"
+        android:text="Морь:"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/azarga_zurag_nemeh"
+        android:id="@+id/textView7m"
+        android:layout_marginLeft="24dp"
+        android:layout_marginStart="24dp"
+        android:textStyle="bold"
+        android:layout_below="@+id/textView10"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="13dp" />
+
+    <TextView
+        android:id="@+id/textView97"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="*"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_alignBaseline="@+id/textView113"
+        android:layout_alignBottom="@+id/textView113"
+        android:layout_alignEnd="@+id/textView125"
+        android:layout_alignStart="@+id/textView111" />
+
+    <TextView
+        android:id="@+id/textView8м"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="34dp"
+        android:text="@string/moriner"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:layout_below="@+id/textView97"
+        android:layout_alignStart="@+id/textView7m" />
+
+    <TextView
+        android:id="@+id/textView9m"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView8м"
+        android:layout_alignStart="@+id/textView8м"
+        android:layout_below="@+id/textView8м"
+        android:text="@string/mori_id"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView11m"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView9m"
+        android:layout_alignStart="@+id/textView9m"
+        android:layout_below="@+id/textView9m"
+        android:text="@string/mori_ugshil"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView12m"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView11m"
+        android:layout_alignStart="@+id/textView11m"
+        android:layout_below="@+id/textView11m"
+        android:text="@string/mori_zus"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView13m"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView12m"
+        android:layout_alignStart="@+id/textView12m"
+        android:layout_below="@+id/textView12m"
+        android:checked="false"
+        android:text="@string/mori_ognoo"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView15m"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView13m"
+        android:layout_alignStart="@+id/textView13m"
+        android:layout_below="@+id/textView13m"
+        android:text="@string/mori_gazar"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView16m"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView15m"
+        android:layout_alignStart="@+id/textView15m"
+        android:layout_below="@+id/textView15m"
+        android:text="@string/mori_tsus"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editTextnamem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView8м"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/textView8м"
+        android:layout_marginBottom="2dp"
+        android:background="@color/common_google_signin_btn_text_dark_default"
+        android:ems="10"
+        android:textSize="14sp"
+        android:layout_alignStart="@+id/checkBox3" />
+
+    <EditText
+        android:id="@+id/editTextIDm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/editTextUgshilm"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/editTextnamem"
+        android:layout_marginBottom="2dp"
+        android:layout_toEndOf="@+id/textView111"
+        android:background="@color/common_google_signin_btn_text_dark_default"
+        android:ems="10"
+        android:inputType="number"
+        android:textSize="14sp"
+        android:layout_alignStart="@+id/editTextnamem" />
+
+    <EditText
+        android:id="@+id/editTextUgshilm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView111"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="2dp"
+        android:layout_toEndOf="@+id/textView112"
+        android:background="@color/common_google_signin_btn_text_dark_default"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textSize="14sp"
+        android:layout_alignStart="@+id/editTextnamem" />
+
+    <EditText
+        android:id="@+id/editTextZusm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView13m"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/textView11m"
+        android:layout_marginBottom="2dp"
+        android:layout_toEndOf="@+id/textView13m"
+        android:layout_toRightOf="@+id/textView13m"
+        android:background="@color/common_google_signin_btn_text_dark_default"
+        android:ems="10"
+        android:inputType="text"
+        android:textSize="14sp" />
+
+    <EditText
+        android:id="@+id/editTextOgnoom"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView13m"
+        android:layout_below="@+id/editTextZusm"
+        android:layout_marginBottom="2dp"
+        android:background="@color/common_google_signin_btn_text_dark_default"
+        android:ems="10"
+        android:inputType="date"
+        android:textSize="14sp"
+        android:layout_toRightOf="@+id/textView15m"
+        android:layout_toEndOf="@+id/textView15m" />
+
+    <EditText
+        android:id="@+id/editTextTGazarm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView15m"
+        android:layout_alignLeft="@+id/editTextOgnoom"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignStart="@+id/editTextOgnoom"
+        android:layout_below="@+id/editTextOgnoom"
+        android:layout_marginBottom="2dp"
+        android:background="@color/common_google_signin_btn_text_dark_default"
+        android:ems="10"
+        android:inputType="text"
+        android:textSize="14sp" />
+
+    <EditText
+        android:id="@+id/editTexttsusm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/editTextetsegm"
+        android:layout_alignEnd="@+id/editTextTGazarm"
+        android:layout_alignLeft="@+id/editTextTGazarm"
+        android:layout_alignRight="@+id/editTextTGazarm"
+        android:layout_alignStart="@+id/editTextTGazarm"
+        android:layout_below="@+id/editTextTGazarm"
+        android:layout_marginBottom="2dp"
+        android:background="@color/common_google_signin_btn_text_dark_default"
+        android:ems="10"
+        android:inputType="text"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/textView18m"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView16m"
+        android:layout_alignStart="@+id/textView16m"
+        android:layout_below="@+id/textView16m"
+        android:text="@string/morietseg"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView20m"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView18m"
+        android:layout_alignStart="@+id/textView18m"
+        android:layout_below="@+id/textView18m"
+        android:text="@string/morieh"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editTextetsegm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/editTextehm"
+        android:layout_alignLeft="@+id/editTexttsusm"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignStart="@+id/editTexttsusm"
+        android:layout_below="@+id/textView16m"
+        android:layout_marginBottom="2dp"
+        android:background="@color/common_google_signin_btn_text_dark_default"
+        android:ems="10"
+        android:inputType="text"
+        android:textSize="14sp" />
+
+    <EditText
+        android:id="@+id/editTextehm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView20m"
+        android:layout_alignLeft="@+id/editTextetsegm"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignStart="@+id/editTextetsegm"
+        android:layout_alignTop="@+id/textView20m"
+        android:layout_marginBottom="2dp"
+        android:background="@color/common_google_signin_btn_text_dark_default"
+        android:ems="10"
+        android:textSize="14sp" />
+
+    <ImageButton
+        android:id="@+id/imageButton_img_male"
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView114"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        app:srcCompat="@android:drawable/ic_menu_gallery" />
+
+    <TextView
+        android:id="@+id/textView112"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView20m"
+        android:layout_below="@+id/textView20m"
+        android:text="Тамга:"
+        android:textStyle="bold" />
+
+    <ImageButton
+        android:id="@+id/imageButton_marking_male"
+        android:layout_width="wrap_content"
+        android:layout_height="90dp"
+        android:layout_alignEnd="@+id/imageButton_img_male"
+        android:layout_alignRight="@+id/imageButton_img_male"
+        android:layout_alignTop="@+id/textView112"
+        app:srcCompat="@android:drawable/gallery_thumb"
+        android:layout_toEndOf="@+id/textView114" />
+
+    <Spinner
+        android:id="@+id/spinner_male"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView125"
+        android:layout_alignStart="@+id/checkBox3"
+        android:layout_below="@+id/imageButton_img_male"
+        android:layout_marginBottom="2dp"
+        android:layout_toEndOf="@+id/textView11m"
+        android:background="@color/common_google_signin_btn_text_dark_default"
+        android:spinnerMode="dialog" />
+
+    <TextView
+        android:id="@+id/textView113"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Сүрэг:"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:layout_below="@+id/imageButton_img_male"
+        android:layout_alignStart="@+id/textView8м" />
+
+    <Button
+        android:id="@+id/button_date_male"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/editTextTGazarm"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/editTextOgnoom"
+        android:layout_toEndOf="@+id/editTextOgnoom"
+        android:layout_toRightOf="@+id/editTextOgnoom"
+        android:background="@null"
+        android:text="Date "
+        android:textColor="@color/colorAccent" />
+
+
+
+</RelativeLayout>
